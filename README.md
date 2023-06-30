@@ -1,6 +1,13 @@
 DVD RENTAL SQL PROJECT 
-This SQL project dataset consists of several tables that capture various aspects of a DVD rental system. The tables include film, category, film category, film actor, actor, language, customer, address, city, country, payment, rental, store, inventory, and staff. The dataset provides a comprehensive set of data for analysis and insights. The project involves performing several analysis tasks using SQL queries. 
+
+![dvd rental](https://github.com/Shubhangi2101/WEEK-2-SQL-PROJECT/assets/46973898/fc783078-0fdc-483f-b1a3-97187f1c70cd)
+
+This SQL project dataset consists of several tables that capture various aspec
+ts of a DVD rental system. The tables include film, category, film category, film actor, actor, language, customer, address, city, country, payment, rental, store, inventory, and staff. The dataset provides a comprehensive set of data for analysis and insights. The project involves performing several analysis tasks using SQL queries. 
 The SQL project dataset offers an opportunity to analyze customer rental behavior, identify high-spending customers, track actor movie counts, and explore films in specific genres. These queries provide valuable insights into the rental business, customer preferences, and the performance of actors and films in the dataset. Entity Relationship diagram is shown below:
+![Screenshot 2023-06-29 160634](https://github.com/Shubhangi2101/WEEK-2-SQL-PROJECT/assets/46973898/a85292db-ee41-4af0-b008-fd2bebde4e20)
+
+
 
 
 DATABASE USED FOR THIS ANALYSIS:  POSTGRES 15
