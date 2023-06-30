@@ -22,6 +22,9 @@ The WHERE clause filters the rows based on the condition `customer_id IN (...)`,
 The subquery within the parentheses is used to retrieve the top three customers with the highest total money spent. It begins with the SELECT statement, selecting the customer_id and calculating the sum of the amount spent by each customer using the SUM() function. The result is aliased as "totalMoneySpentbyaCust."
 The subquery also includes the GROUP BY clause to group the results by customer_id and the ORDER BY clause to sort the results in descending order of the total money spent. The LIMIT clause ensures that only the top three rows are selected.
 
+![query 1 result](https://github.com/Shubhangi2101/WEEK-2-SQL-PROJECT/assets/46973898/709adafd-e401-495e-9f42-2da327f4b3f8)
+
+
 2. WITH duration_of_Rental AS(
 select rental_id, customer_id, AGE(return_date, rental_date) as NO_OF_DAYS_RENTED from rental)
 Select customer_id, NO_OF_DAYS_RENTED,
@@ -38,6 +41,7 @@ The final result set includes the customer_id, NO_OF_DAYS_RENTED, and the catego
 In summary, the query calculates the rental duration for each customer and provides a categorization based on the duration threshold of 7 days. It determines whether a reminder mail should be sent to the customer based on the number of days rented and presents the results accordingly.
 
 
+![query 2 result](https://github.com/Shubhangi2101/WEEK-2-SQL-PROJECT/assets/46973898/c27d5e96-20c4-4e1d-8cca-67ed32efe150)
 
 Resources:
 https://www.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf
